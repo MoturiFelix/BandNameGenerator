@@ -1,0 +1,12 @@
+print ("This will help you know how many weeks you have left till Age of 90 years")
+age = input("please input your Current age")
+new_age = int(age)
+# print(type(new_age))
+years_left = 90 - new_age
+
+# print (years_left)
+month_left = 12 * years_left
+weeks_left = month_left * 4
+# print (weeks_left)
+
+print (f"You have {weeks_left} weeks left")
